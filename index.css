@@ -1,0 +1,150 @@
+.body{
+    margin: 0px;
+    background-color: #E5E5E5;
+}
+
+.body__header{
+    margin: 96px 160px 128px 160px;
+    
+}
+
+
+.header__navbar{
+    flex-wrap: nowrap;
+    padding: 0px;
+}
+
+.navbar__links{
+    margin-left: 200px;
+}
+
+/* styles */
+
+.link{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.link:link{
+	text-decoration: none;
+	color: var(--black);
+} 
+
+.link:visited{
+	text-decoration: none;
+	color: var(--black);
+} 
+
+.link:active{
+	text-decoration: none;
+	color: var(--black);
+}
+
+.header__title{
+    margin-top: 128px;
+}
+
+.title{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+}
+
+.card-name{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+}
+
+.picture-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+}
+
+
+.card-info{
+    font-family: 'Lato';
+    font-style: normal;
+    color: #565656;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #565656;
+}
+
+.grey--100{
+    color: #F4F4F4;
+}
+
+.grey--500{
+    color: #7B7B7B;
+}
+
+.grey--700{
+    color: #565656;
+}
+
+
+.post-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
+
+
+/* blocks */
+
+.body__gallery{
+    margin-top: 128px;
+}
+
+.gallery{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.gallery__picture{
+    margin-right: 32px;
+}
+
+
+
+.body__main{
+    margin: 0px 160px;
+}
+
+.main__info{
+    margin-top: 112px;
+}
+
+.main__posts{
+    margin-top: 128px;
+}
+
+.footer{
+    background-color: #F4F4F4;
+    color: #000000;
+    margin: 125px 0px;
+    padding: 128px 0px;
+    overflow: hidden;
+}
