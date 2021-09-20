@@ -46,10 +46,6 @@
 	color: var(--black);
 }
 
-.header__title{
-    margin-top: 128px;
-}
-
 .title{
     font-family: 'Red Hat Display';
     font-style: normal;
@@ -111,11 +107,14 @@
     letter-spacing: 0.1em;
 }
 
-
 /* blocks */
 
-.body__gallery{
+.header__title{
     margin-top: 128px;
+}
+
+.body__gallery{
+    margin: 128px -160px 0px -160px;
 }
 
 .gallery{
@@ -127,11 +126,11 @@
     margin-right: 32px;
 }
 
-
-
 .body__main{
     margin: 0px 160px;
 }
+
+
 
 .main__info{
     margin-top: 112px;
@@ -147,4 +146,30 @@
     margin: 125px 0px;
     padding: 128px 0px;
     overflow: hidden;
+}
+
+
+@media screen and (max-width: 600px) {
+    .body__header{
+        margin: 16px;
+    }
+    .body__main{
+        margin: 0px 16px;
+    }
+    .header__title{
+        margin-top: 128px;
+    }
+    .body__gallery{
+        margin: 16px -16px 0px -16px;
+    }
+    .gallery__picture-item{
+        max-width: 300px;
+    }
+    .footer{
+        background-color: #F4F4F4;
+        color: #000000;
+        margin: 125px 0px;
+        padding: 64px 0px;
+        /* overflow: hidden; */
+    }
 }
