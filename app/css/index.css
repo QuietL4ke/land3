@@ -172,4 +172,7 @@
         padding: 64px 0px;
         /* overflow: hidden; */
     }
+    .extra-top-margin--phone{
+        margin-top: 0.5rem;
+    }
 }
