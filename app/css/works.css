@@ -1,0 +1,24 @@
+.main__works{
+    margin-top: 128px;
+}
+
+.line{
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    border-left: none;
+    border-bottom:none;
+    width: 85px;
+}
+
+.main__works-title{
+    margin-top: 128px;
+}
+
+@media screen and (max-width: 600px) {
+    .main__works{
+        margin-top: 48px;
+    }
+    .main__works-title{
+        margin-top: 64px;
+    }
+}
