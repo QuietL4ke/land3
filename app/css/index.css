@@ -1,24 +1,5 @@
-.body{
-    margin: 0px;
-    background-color: #E5E5E5;
-}
 
-.body__header{
-    margin: 96px 160px 128px 160px;
-    
-}
-
-
-.header__navbar{
-    flex-wrap: nowrap;
-    padding: 0px;
-}
-
-.navbar__links{
-    margin-left: 200px;
-}
-
-/* styles */
+/* Shared */
 
 .link{
     font-family: 'Lato';
@@ -107,11 +88,47 @@
     letter-spacing: 0.1em;
 }
 
-/* blocks */
 
 .header__title{
     margin-top: 128px;
 }
+
+.body{
+    margin: 0px;
+    background-color: #E5E5E5;
+}
+
+.body__header{
+    margin: 96px 160px 128px 160px;
+    
+}
+
+
+.header__navbar{
+    flex-wrap: nowrap;
+    padding: 0px;
+}
+
+.navbar__links{
+    margin-left: 200px;
+}
+
+
+.footer{
+    background-color: #F4F4F4;
+    color: #000000;
+    margin: 125px 0px;
+    padding: 128px 0px;
+    overflow: hidden;
+}
+
+.body__main{
+    margin: 0px 160px;
+}
+
+
+
+/* Index.page */
 
 .body__gallery{
     margin: 128px -160px 0px -160px;
@@ -126,11 +143,6 @@
     margin-right: 32px;
 }
 
-.body__main{
-    margin: 0px 160px;
-}
-
-
 
 .main__info{
     margin-top: 112px;
@@ -140,19 +152,22 @@
     margin-top: 128px;
 }
 
-.footer{
-    background-color: #F4F4F4;
-    color: #000000;
-    margin: 125px 0px;
-    padding: 128px 0px;
-    overflow: hidden;
-}
-
 
 @media screen and (max-width: 600px) {
+
+    /* Shared */
+    .footer{
+        background-color: #F4F4F4;
+        color: #000000;
+        margin: 125px 0px;
+        padding: 64px 0px;
+    }
+
     .body__header{
         margin: 16px;
     }
+
+    /* Index page */
     .body__main{
         margin: 0px 16px;
     }
@@ -165,13 +180,7 @@
     .gallery__picture-item{
         max-width: 300px;
     }
-    .footer{
-        background-color: #F4F4F4;
-        color: #000000;
-        margin: 125px 0px;
-        padding: 64px 0px;
-        /* overflow: hidden; */
-    }
+    
     .extra-top-margin--phone{
         margin-top: 0.5rem;
     }
