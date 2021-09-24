@@ -1,0 +1,31 @@
+.header__nav{
+    margin-top: 80px;
+}
+
+.header__er404 {
+    margin-top: 80px;
+}
+
+.er404{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 140px;
+    line-height: 185px;
+    letter-spacing: 0.05em;
+    color: #CCCCCC;
+}
+
+.oops{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #CCCCCC;
+}
+
+.button--home{
+    padding: 8px 36px;
+}
