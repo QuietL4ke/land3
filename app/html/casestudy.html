@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +14,92 @@
     &family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">   
 </head>
 <body class="body">
-    
+    <header class="body__header d-flex flex-column ">
+        <nav class="container-fluid header__navbar">
+            <div class="row justify-content-between align-items-center">
+                <a href="index.html" class="col-md-2 col-2"><img src="../../images/Logo.png"/></a> 
+                <div class="navbar col-md-6 col-2">
+                    <a href="index.html" class="d-none d-md-block link">Home</a>
+                    <a href="about.html" class="d-none d-md-block link">About</a>
+                    <a href="works.html" class="d-none d-md-block link">Works</a>
+                    <a href="blog.html" class="d-none d-md-block link">Blog</a>
+                    <a href="contact.html" class="d-none d-md-block link">Contact</a>
+                    <div class="d-flex align-items-center">
+                        <a href="" class="link"><img src="../../icons/search.svg" ></a>
+                        <a href=""><img src="../../icons/burger.svg" class="d-md-none ml-2"/></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <div class="body__main"> 
+    <div class="body__main d-flex flex-column">
+        <h6 class="picture-title study">CASE STUDY</h6>
+        <h1 class="title mt-5">AI Fashion Platform</h1>
+        <div class="main__platform d-flex flex-column">
+            <img src="/images/pic3/Img 01.png" class="mt-5 pt-3"/>
+            <div class="container-fluid platform__description p-0">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6 d-flex flex-column">
+                        <h3 class="card-name">Project Overview</h3>
+                        <h4 class="card-info mt-4 grey--700">FashHanger is a bespoke sustainable high-fashion accessory company 
+                            based out of Berlin, currently operated by Siesly and her sister Ashely. They needed help for 
+                            a big rebrand and wanted to relaunch their website.
+                            <br><br>
+                        Their goals were simple, create a unique e-commerce store 
+                            that bring a wonderful shopping experience at every stage of the buyer’s journey.</h4>
+                    </div>
+                    <div class="col-12 col-md-3 d-flex flex-column justify-content-between">
+                        <div class="description--item d-flex flex-column ">
+                            <div class="card-name">Year</div>
+                            <div class="card-info grey--700">2019</div>
+                        </div>
+                        <div class="description--item d-flex flex-column mt-5">
+                            <div class="card-name">Platform</div>
+                            <div class="card-info grey--700">Shopify, Webflow</div>
+                        </div>
+                        <div class="description--item d-flex flex-column mt-5">
+                            <div class="card-name">Role</div>
+                            <div class="card-info grey--700">Research, Design</div>
+                        </div>
+                        <div class="description--item d-flex flex-column mt-5">
+                            <div class="card-name">Deliverables</div>
+                            <div class="card-info grey--700">www.fashhanger.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__sections">
+            <section class="d-flex flex-column">
+                <h3 class="card-name">User Research and Personas</h3>
+                <img class="mt-4 pt-3" src="/images/pic3/Img 03.png"/>
+                <h4 class="card-info grey-700 mt-5">
+                    Who is your user? Indicate her KEY personality traits and help round out her overall image.
+                    <br><br>
+                    Originally, the personality section of this persona was based off the Myers Briggs 
+                    personality test. According to the Myers Briggs, there are 16 potential user personality types. Our template integrates questions 
+                    from this online personality test example into a series of sliding bar graphics. If you’re confused as to what the sliders mean,
+                     check out the Myers Briggs basics article.           
+                </h4>
+            </section>
+            <section class="d-flex flex-column mt-5">
+                <h3 class="card-name">Initial Sketches</h3>
+                <img class="mt-4 pt-3" src="/images/pic3/Img 02.png"/>
+                <h4 class="card-info grey-700 mt-5">In the beginning, It’s just about brainstorming.
+                    <br><br>
+                    I list out a jumble of words and draw tiny sketches related to what I’m working on (and find the parallels later). Personally, I prefer paper with a grid so I
+                     can convey things responsively. Most of the time perfection isn’t an issue and the sketches are just for me.</h4>
+            </section>
+            <section class="d-flex flex-column mt-5">
+                <h3 class="card-name">Final Design</h3>
+                <img class="mt-4 pt-3" src="/images/pic3/Img 04.png"/>
+                <h4 class="card-info grey-700 mt-5">
+                    I played with adding a wireframe of the website flow that would lead you in to each screen. For each of those screens I added a 
+                    floating footer that allows users to see where they are in that particular flow and jump around as needed.” We’re digging this InVision-made wireframe.         
+                </h4>
+            </section>
+        </div>
     </div>
 
 
