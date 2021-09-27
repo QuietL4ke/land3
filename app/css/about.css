@@ -1,0 +1,17 @@
+.avatar{
+    max-width: 225px;
+    max-height: 235px;
+}
+
+.button--resume{
+    padding: 8px 34px;
+}
+
+@media screen and (max-width:600px) {
+    .extra-top-margin--phone{
+        margin-top: 3rem;
+    }
+    .body__main{
+        margin-top: 64px;
+    }
+}
