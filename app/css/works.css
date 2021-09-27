@@ -21,4 +21,7 @@
     .main__works-title{
         margin-top: 64px;
     }
+    .extra-top-margin--phone{
+        margin-top: 3rem;
+    }
 }

@@ -117,7 +117,7 @@
 .footer{
     background-color: #F4F4F4;
     color: #000000;
-    margin: 125px 0px;
+    margin-top: 125px;
     padding: 128px 0px;
     overflow: hidden;
 }
@@ -167,9 +167,13 @@
     .footer{
         background-color: #F4F4F4;
         color: #000000;
-        margin: 125px 0px;
-        padding: 64px 0px;
+        margin-top: 125px;
+        padding: 64px 16px;
     }
+    .footer__top-margin--tel{
+        margin-top: 3rem;
+    }
+
 
     .body__header{
         margin: 16px;
