@@ -78,6 +78,10 @@
     color: #565656;
 }
 
+.black{
+    color: black;
+}
+
 
 .post-title{
     font-family: 'Lato';
@@ -137,11 +141,7 @@
 .select{
     width: 407px;
     background-color: #E5E5E5;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: black;
+    border-block: 1px solid #000000;
     padding-bottom: 21px;
 }
 
@@ -187,7 +187,7 @@
 
 
     .body__header{
-        margin: 16px;
+        margin: 16px 0px 0px 16px;
     }
 
     /* Index page */
