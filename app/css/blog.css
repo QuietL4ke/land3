@@ -9,16 +9,6 @@
     margin-left: 39px;
 }
 
-.select{
-    width: 407px;
-    background-color: #E5E5E5;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: black;
-    padding-bottom: 21px;
-}
 
 @media screen and (max-width: 600px) {
     .body__main{

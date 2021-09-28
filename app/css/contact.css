@@ -1,0 +1,43 @@
+.main__contact-form{
+    margin-top: 8rem;
+}
+
+.form__item-style{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+
+.form__item-text{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000000;
+    background-color: inherit;
+}
+
+.button--input{
+    max-width: 33%;
+    padding: 8px 0px;
+}
+
+svg{
+    fill: #7B7B7B;
+}
+
+
+@media screen and (max-width:600px) {
+    .body__main{
+        margin-top: 64px;
+    }
+    .extra-top-margin--phone{
+        margin-top: 3rem;
+    }
+    .main__row--3{
+        margin-top: 4rem;
+    }
+}

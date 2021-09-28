@@ -134,6 +134,17 @@
     border: 1px solid #000000;
 }
 
+.select{
+    width: 407px;
+    background-color: #E5E5E5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: black;
+    padding-bottom: 21px;
+}
+
 
 
 /* Index.page */
