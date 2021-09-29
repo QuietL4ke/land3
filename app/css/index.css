@@ -141,11 +141,32 @@
 .select{
     width: 407px;
     background-color: #E5E5E5;
-    border-block: 1px solid #000000;
+    border: none;
+    border-bottom: 1px solid #000000;
     padding-bottom: 21px;
 }
 
+.form__item-style{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
 
+.form__item-text{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000000;
+    background-color: inherit;
+}
+
+.checkbox{
+    border: none;
+}
 
 /* Index.page */
 
@@ -187,7 +208,7 @@
 
 
     .body__header{
-        margin: 16px 0px 0px 16px;
+        margin: 16px 0px 0px;
     }
 
     /* Index page */

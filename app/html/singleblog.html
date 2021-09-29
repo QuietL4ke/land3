@@ -48,7 +48,7 @@
         <div class="main__pic">
             <img src="/images/gallery/Img 01.png" class="w-100 main__pic--blog" />
         </div>
-        <div class="main__blog">
+        <div class="main__blog w-75">
             <div class="container-fluid p-0">
                 <div class="row justify-content-start justify-content-md-end">
                     <div class="col-12 col-md-10">
@@ -90,9 +90,84 @@
                             <h6 class="card-info black">Tags:</h6>
                             <h6 class="card-info ml-3">Technology, Interface Design, Visual Design</h6>
                         </div>
+                        <div class="blog__reply d-flex flex-column">
+                            <h3 class="card-name">Leave a Reply</h3>
+                            <h6 class="picture-title grey--500">Required fields are marked *</h6>
+                            <form class="reply__form">
+                                <div class="container-fluid p-0">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-12 col-md-4 form__item d-flex flex-column">
+                                            <h5 class="picture-title grey--700">Name*</h5>
+                                            <input type="text" placeholder="Walter Moss" class="form__item-style form__item-text grey--500 mt-3 pb-2">
+                                        </div>
+                                        <div class="col-12 col-md-4 form__item d-flex flex-column">
+                                            <h5 class="picture-title grey--700">Email*</h5>
+                                            <input type="text" placeholder="Info@manifest.com" class="form__item-style form__item-text grey--500 mt-3 pb-2 ">
+                                        </div>
+                                        <div class="col-12 col-md-4 form__item d-flex flex-column">
+                                            <h5 class="picture-title grey--700">Website</h5>
+                                            <input type="text" placeholder="www.manifest.com" class="form__item-style form__item-text grey--500 mt-3 pb-2 ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reply__checkbox d-flex align-items-center">
+                                    <input type="checkbox" class="checkbox"/>
+                                    <div class="form__item-style ml-2 grey--500">Save my name, email, and website in this browser for the next time I comment</div>
+                                </div>
+                                <div class="form__item d-flex flex-column mt-5">
+                                    <h5 class="picture-title grey--700">Comment*</h5>
+                                    <input type="text" placeholder="Hi there ..." class="form__item-style form__item-text grey--500 mt-3 pb-2 ">
+                                </div>
+                                <input type="submit" class="button mt-4" value="Post"  />
+                            </form>
+                       </div>
+                       <div class="blog__comments d-flex flex-column">
+                           <h3 class="card-name">Comments</h3>
+                           <div class="comment-item d-flex">
+                                <img class="comment-item-avatar" src="/images/Avatar/av1.png" />
+                                <div class="comment-item__info ml-4 d-flex flex-column">
+                                    <div class="comment-item__name d-flex flex-column flex-md-row justify-content-start align-items-md-center">
+                                        <div class="card-info black">Scarlet withch</div>
+                                        <div class="form__item-style grey--500 margin--date">6 May, 2020</div>
+                                    </div>
+                                    <h4 class="card-info mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </h4>
+                                    <a href="" class="link comment-item-reply mt-3 d-flex align-items-center">
+                                        <img src="/icons/Reply.svg"/>
+                                        <div class="picture-title ml-2 grey--500">Reply</div>
+                                    </a>
+                                    <div class="comment-item__info-con d-flex">
+                                        <img class="comment-item-avatar" src="/images/Avatar/av2.png" />
+                                        <div class="comment-item__info ml-4 d-flex flex-column">
+                                            <div class="comment-item__name d-flex flex-column flex-md-row align-items-md-center">
+                                                <div class="card-info black">Kate Moss</div>
+                                                <div class="form__item-style grey--500 margin--date">6 May, 2020</div>
+                                            </div>
+                                            <h4 class="card-info mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </h4>
+                                            <a href="" class="link comment-item-reply mt-3 d-flex align-items-center">
+                                                <img src="/icons/Reply.svg"/>
+                                                <div class="picture-title ml-2 grey--500">Reply</div>
+                                            </a>
+                                        </div>
+                                   </div>
+                                </div>
+                           </div>
+                           <div class="comment-item comment-item--next d-flex">
+                                <img class="comment-item-avatar" src="/images/Avatar/av1.png" />
+                                <div class="comment-item__info ml-4 d-flex flex-column">
+                                    <div class="comment-item__name d-flex flex-column flex-md-row align-items-md-center">
+                                        <div class="card-info black">Scarlet withch</div>
+                                        <div class="form__item-style grey--500 margin--date">6 May, 2020</div>
+                                    </div>
+                                    <h4 class="card-info mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </h4>
+                                    <a href="#" class="link mt-3 d-flex align-items-center comment-item-reply">
+                                        <img src="/icons/Reply.svg"/>
+                                        <div class="picture-title ml-2 grey--500">Reply</div>
+                                    </a>
+                                </div>
+                            </div>
+                       </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>

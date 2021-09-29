@@ -2,23 +2,7 @@
     margin-top: 8rem;
 }
 
-.form__item-style{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    align-items: center;
-    letter-spacing: 0.1em;
-}
 
-.form__item-text{
-    border-top:none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #000000;
-    background-color: inherit;
-}
 
 .button--input{
     max-width: 33%;
