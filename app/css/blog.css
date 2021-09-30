@@ -1,6 +1,4 @@
-.body__main{
-    margin-top: 123px;
-}
+
 .main__dropdown{
     margin-top: 114px;
 }
@@ -11,9 +9,7 @@
 
 
 @media screen and (max-width: 600px) {
-    .body__main{
-        margin-top: 64px;
-    }
+
     .main__dropdown{
         margin-top: 64px;
     }
