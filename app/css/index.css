@@ -94,12 +94,14 @@
 
 
 .header__title{
-    margin-top: 128px;
+    margin-top: 8rem;
+    max-width: 75%;
 }
 
 .body{
     margin: 0px;
     background-color: #E5E5E5;
+    max-width: 100%;
 }
 
 .body__header{
@@ -208,15 +210,18 @@
 
 
     .body__header{
-        margin: 16px 0px 0px;
+        margin: 1rem 1rem 4rem 1rem;
     }
 
-    /* Index page */
     .body__main{
         margin: 0px 16px;
     }
+
+    /* Index page */
+    
     .header__title{
-        margin-top: 128px;
+        margin-top: 4rem;
+        max-width: 100%;
     }
     .body__gallery{
         margin: 16px -16px 0px -16px;
