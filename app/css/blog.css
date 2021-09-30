@@ -7,9 +7,19 @@
     margin-left: 39px;
 }
 
+.blog__container{
+    margin-top: 6rem;
+}
+
+.main__posts--blog{
+    margin-top: 3rem;
+}
 
 @media screen and (max-width: 600px) {
 
+    .blog__container{
+        margin-top: 4rem;
+    }
     .main__dropdown{
         margin-top: 64px;
     }
