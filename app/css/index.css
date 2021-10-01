@@ -220,6 +220,9 @@
     .body__main{
         margin: 4rem 1rem;
     }
+    .select{
+        width: 100%;
+    }
 
     /* Index page */
     
