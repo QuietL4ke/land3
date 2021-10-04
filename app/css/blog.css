@@ -1,6 +1,4 @@
-.body__main{
-    margin-top: 123px;
-}
+
 .main__dropdown{
     margin-top: 114px;
 }
@@ -9,20 +7,18 @@
     margin-left: 39px;
 }
 
-.select{
-    width: 407px;
-    background-color: #E5E5E5;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: black;
-    padding-bottom: 21px;
+.blog__container{
+    margin-top: 6rem;
+}
+
+.main__posts--blog{
+    margin-top: 3rem;
 }
 
 @media screen and (max-width: 600px) {
-    .body__main{
-        margin-top: 64px;
+
+    .blog__container{
+        margin-top: 4rem;
     }
     .main__dropdown{
         margin-top: 64px;
